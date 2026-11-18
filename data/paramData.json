@@ -1,0 +1,6 @@
+{
+    "more": ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "utm_id"],
+    "youtube.com": ["si"],
+    "youtu.be": ["si"],
+    "www.amazon.co.jp": ["sr", "sprefix", "crid", "__mk_ja_JP", "content-id", "th", "psc"]
+}
