@@ -4,7 +4,7 @@
     "music.youtube.com": ["si"],
     "jp.youtube.com": ["si"],
     "www.youtube.com": ["si"],
-    "youtube.com": ["si"],
     "youtu.be": ["si"],
+    "google.com": ["uact", "rlz", "sxsrf"],
     "www.amazon.co.jp": ["sr", "sprefix", "crid", "__mk_ja_JP", "content-id", "th", "psc", "spc", "ie", "sp_csd"]
 }
