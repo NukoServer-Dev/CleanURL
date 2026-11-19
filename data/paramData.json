@@ -5,7 +5,8 @@
     "jp.youtube.com": ["si"],
     "www.youtube.com": ["si"],
     "youtu.be": ["si"],
-    "google.com": ["uact", "rlz", "sxsrf"],
-    "www.google.com": ["uact", "rlz", "sxsrf"],
+    "google.com": ["uact", "rlz", "sxsrf", "ie"],
+    "www.google.com": ["uact", "rlz", "sxsrf", "ie"],
+    "translate.google.com": ["op"],
     "www.amazon.co.jp": ["sr", "sprefix", "crid", "__mk_ja_JP", "content-id", "th", "psc", "spc", "ie", "sp_csd"]
 }
