@@ -5,9 +5,11 @@
     "jp.youtube.com": ["si"],
     "www.youtube.com": ["si"],
     "youtu.be": ["si"],
-    "google.com": ["uact", "rlz", "sxsrf", "ie", "aep", "udm", "mstk", "csuir", "mtid"],
-    "www.google.com": ["uact", "rlz", "sxsrf", "ie", "aep", "udm", "mstk", "csuir", "mtid"],
+    "google.com": ["uact", "rlz", "sxsrf", "ie", "aep", "udm", "mstk", "csuir", "mtid", "biw", "bih", "dpr", "cs", "ntc", "csuir", "vsint"],
+    "www.google.com": ["uact", "rlz", "sxsrf", "ie", "aep", "udm", "mstk", "csuir", "mtid", "biw", "bih", "dpr", "cs", "ntc", "csuir", "vsint"],
     "translate.google.com": ["op"],
     "www.amazon.co.jp": ["sr", "sprefix", "crid", "__mk_ja_JP", "content-id", "th", "psc", "spc", "ie", "sp_csd"],
-    "www.bing.com": ["pglt", "gs_lcrp", "adppc", "FORM", "PC"]
+    "www.bing.com": ["pglt", "gs_lcrp", "adppc", "FORM", "PC"],
+    "duckduckgo.com": ["t"],
+    "search.yahoo.co.jp": ["aq", "ai", "ts", "sfp", "ei", "a", "frlogid", "x"]
 }
