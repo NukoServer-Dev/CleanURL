@@ -1,4 +1,4 @@
-import { Client, GatewayIntentBits, Events } from "discord.js";
+import { Client, GatewayIntentBits, Events, ActivityType } from "discord.js";
 import { config } from "dotenv";
 import { loadParams } from "./url.ts";
 import { registerCleanMessage } from "./clean.ts";
@@ -17,6 +17,13 @@ client.on("clientReady", () => {
     registerCommands(client);
 
     console.log("起動しました。")
+
+    setInterval(() => {
+        client.user?.setActivity({
+            type: ActivityType.Watching,
+            name: "URL"
+        })
+    }, 10000)
 })
 
 client.login(process.env.DISCORD_TOKEN)

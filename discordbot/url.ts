@@ -11,3 +11,7 @@ export async function reloadParams(fileName: string = "paramData") {
     paramData = new Map<string, string[]>(Object.entries(await file.json()));
     console.log(`${fileName}をリロードしました。`)
 }
+
+export function countParams() {
+    return paramData.size
+}

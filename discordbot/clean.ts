@@ -1,5 +1,5 @@
 import { ChannelType, Colors, EmbedBuilder, type Client } from "discord.js";
-import { paramData, reloadParams } from "./url";
+import { countParams, paramData, reloadParams } from "./url";
 
 export async function registerCleanMessage(client: Client) {
     client.on("messageCreate", async (message) => {
@@ -19,6 +19,9 @@ export async function registerCleanMessage(client: Client) {
                         await reloadParams();
                         await message.reply("パラメータデータをアップデートしました。")
                         return;
+                    } else if (cmdName == "count") {
+                        const countParam = countParams();
+                        await message.reply(`パラメータデータ: ${countParam}個`)
                     }
                 }
             }
@@ -60,7 +63,8 @@ export async function registerCleanMessage(client: Client) {
                         await webhook.send({
                             content: messageContent,
                             username: message.author.displayName,
-                            avatarURL: message.author.displayAvatarURL()
+                            avatarURL: message.author.displayAvatarURL(),
+                            allowedMentions: { parse: [] }
                         })
                         await message.delete();
                         return;
@@ -74,14 +78,18 @@ export async function registerCleanMessage(client: Client) {
                     embeds: [new EmbedBuilder({
                         title: "必要なWebhookが作成されました。",
                         description: "このWebhookはチャンネルごとに作成されます。",
-                        color: Colors.Green
+                        color: Colors.Green,
+                        footer: {
+                            text: "ぬこぬこサーバー"
+                        }
                     })]
                 })
 
                 await webhook.send({
                     content: messageContent,
                     username: message.author.displayName,
-                    avatarURL: message.author.displayAvatarURL()
+                    avatarURL: message.author.displayAvatarURL(),
+                    allowedMentions: { parse: [] }
                 })
                 await message.delete();
             }
