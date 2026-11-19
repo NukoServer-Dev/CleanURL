@@ -20,8 +20,8 @@ client.on("clientReady", () => {
 
     setInterval(() => {
         client.user?.setActivity({
-            type: ActivityType.Watching,
-            name: "URL"
+            type: ActivityType.Custom,
+            name: "URLを視聴中"
         })
     }, 10000)
 })
