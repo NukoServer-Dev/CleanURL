@@ -8,5 +8,6 @@
     "google.com": ["uact", "rlz", "sxsrf", "ie"],
     "www.google.com": ["uact", "rlz", "sxsrf", "ie"],
     "translate.google.com": ["op"],
-    "www.amazon.co.jp": ["sr", "sprefix", "crid", "__mk_ja_JP", "content-id", "th", "psc", "spc", "ie", "sp_csd"]
+    "www.amazon.co.jp": ["sr", "sprefix", "crid", "__mk_ja_JP", "content-id", "th", "psc", "spc", "ie", "sp_csd"],
+    "www.bing.com": ["pglt", "gs_lcrp", "adppc", "FORM"]
 }
