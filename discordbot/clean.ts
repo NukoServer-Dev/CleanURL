@@ -1,5 +1,6 @@
 import { ChannelType, Colors, EmbedBuilder, type Client } from "discord.js";
 import { countParams, paramData, reloadParams } from "./url";
+import { exec } from "child_process";
 
 export async function registerCleanMessage(client: Client) {
     client.on("messageCreate", async (message) => {
@@ -22,6 +23,10 @@ export async function registerCleanMessage(client: Client) {
                     } else if (cmdName == "count") {
                         const countParam = countParams();
                         await message.reply(`パラメータデータ: ${countParam}個`)
+                    } else if (cmdName == "pull") {
+                        exec('git pull', (error, stdout, stderr) => {
+                            message.reply("アップデートしました。")
+                        });
                     }
                 }
             }
