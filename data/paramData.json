@@ -48,57 +48,15 @@
     ]
   },
   "google.com": {
-    "type": "black",
+    "type": "white",
     "items": [
-      "uact",
-      "rlz",
-      "sxsrf",
-      "ie",
-      "aep",
-      "udm",
-      "mstk",
-      "csuir",
-      "mtid",
-      "biw",
-      "bih",
-      "dpr",
-      "cs",
-      "ntc",
-      "csuir",
-      "vsint",
-      "client",
-      "sourceid",
-      "so urce",
-      "safe",
-      "ssui",
-      "gs_lcrp"
+      "q"
     ]
   },
   "www.google.com": {
-    "type": "black",
+    "type": "white",
     "items": [
-      "uact",
-      "rlz",
-      "sxsrf",
-      "ie",
-      "aep",
-      "udm",
-      "mstk",
-      "csuir",
-      "mtid",
-      "biw",
-      "bih",
-      "dpr",
-      "cs",
-      "ntc",
-      "csuir",
-      "vsint",
-      "client",
-      "sourceid",
-      "so urce",
-      "safe",
-      "ssui",
-      "gs_lcrp"
+      "q"
     ]
   },
   "translate.google.com": {
