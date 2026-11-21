@@ -57,65 +57,68 @@ export async function registerCommands(client: Client) {
           ],
         });
         return;
-      }
-    } else if (interaction.commandName == "status") {
-      await interaction.deferReply();
+      } else if (interaction.commandName == "status") {
+        await interaction.deferReply();
 
-      const countParam = countParams();
+        const countParam = countParams();
 
-      await interaction.editReply({
-        embeds: [
-          new EmbedBuilder({
-            title: "Botのステータス",
-            color: Colors.Blue,
-            fields: [
-              {
-                name: "登録パラメータ数",
-                value: `${countParam}個`,
-                inline: true,
-              }
-            ]
-          }),
-        ]},
-      )
-    } else if (interaction.commandName == "check") {
-      await interaction.deferReply();
-
-      const domain = interaction.options.getString("domain", true);
-
-      const isDomain = paramData.get(domain)
-      if (!isDomain) {
         await interaction.editReply({
           embeds: [
             new EmbedBuilder({
-              title: "そのドメインは登録されていません。",
-              color: Colors.Red
-            })
-          ]}
-        )
-        return
-      } else {
-        await interaction.editReply({
-          embeds: [
-            new EmbedBuilder({
-              title: "そのドメインは登録されています。",
-              color: Colors.Green,
+              title: "Botのステータス",
+              color: Colors.Blue,
               fields: [
                 {
-                  name: "パラメータの処理タイプ",
-                  value: isDomain.type == "black" ? "拒否リスト" : "許可タイプ",
-                  inline: false
-                },
-                {
-                  name: "パラメータ",
-                  value: isDomain.items.join(", "),
-                  inline: false
-                },
+                  name: "登録パラメータ数",
+                  value: `${countParam}個`,
+                  inline: true,
+                }
               ]
             }),
-          ]}
+          ]
+        },
         )
-        return
+      } else if (interaction.commandName == "check") {
+        await interaction.deferReply();
+
+        const domain = interaction.options.getString("domain", true);
+
+        const isDomain = paramData.get(domain)
+        if (!isDomain) {
+          await interaction.editReply({
+            embeds: [
+              new EmbedBuilder({
+                title: "そのドメインは登録されていません。",
+                color: Colors.Red
+              })
+            ]
+          }
+          )
+          return
+        } else {
+          await interaction.editReply({
+            embeds: [
+              new EmbedBuilder({
+                title: "そのドメインは登録されています。",
+                color: Colors.Green,
+                fields: [
+                  {
+                    name: "パラメータの処理タイプ",
+                    value: isDomain.type == "black" ? "拒否リスト" : "許可タイプ",
+                    inline: false
+                  },
+                  {
+                    name: "パラメータ",
+                    value: isDomain.items.join(", "),
+                    inline: false
+                  },
+                ]
+              }),
+            ]
+          }
+          )
+          return
+        }
       }
     }
   });
