@@ -76,7 +76,7 @@ export async function registerCommands(client: Client) {
               }
             ]
           }),
-        },
+        ]},
       )
     } else if (interaction.commandName == "check") {
       await interaction.deferReply();
@@ -91,7 +91,7 @@ export async function registerCommands(client: Client) {
               title: "そのドメインは登録されていません。",
               color: Colors.Red
             })
-          }
+          ]}
         )
         return
       } else {
@@ -113,7 +113,7 @@ export async function registerCommands(client: Client) {
                 },
               ]
             }),
-          }
+          ]}
         )
         return
       }
