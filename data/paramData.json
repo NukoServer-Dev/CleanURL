@@ -6,7 +6,7 @@
     "www.youtube.com": ["si"],
     "youtu.be": ["si"],
     "google.com": ["uact", "rlz", "sxsrf", "ie", "aep", "udm", "mstk", "csuir", "mtid", "biw", "bih", "dpr", "cs", "ntc", "csuir", "vsint", "client", "sourceid", "so urce", "safe", "ssui"],
-    "www.google.com": ["uact", "rlz", "sxsrf", "ie", "aep", "udm", "mstk", "csuir", "mtid", "biw", "bih", "dpr", "cs", "ntc", "csuir", "vsint"],
+    "www.google.com": ["uact", "rlz", "sxsrf", "ie", "aep", "udm", "mstk", "csuir", "mtid", "biw", "bih", "dpr", "cs", "ntc", "csuir", "vsint", "client", "sourceid", "so urce", "safe", "ssui"],
     "translate.google.com": ["op"],
     "www.amazon.co.jp": ["sr", "sprefix", "crid", "__mk_ja_JP", "content-id", "th", "psc", "spc", "ie", "sp_csd"],
     "x.com": ["a", "s", "t", "ref_src", "ref_url", "cxt"],
