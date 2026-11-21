@@ -27,3 +27,11 @@ client.on("clientReady", () => {
 })
 
 client.login(process.env.DISCORD_TOKEN)
+
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('未処理の Promise rejection:', reason);
+});
+
+process.on('uncaughtException', (error) => {
+  console.error('未捕捉の例外:', error);
+});
