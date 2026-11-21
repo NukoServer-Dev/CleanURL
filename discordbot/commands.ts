@@ -53,8 +53,8 @@ export async function registerCommands(client: Client) {
               footer: {
                 text: "ぬこぬこサーバー",
               },
-            }),
-          ],
+            })
+          ]
         });
         return;
       }
@@ -75,7 +75,7 @@ export async function registerCommands(client: Client) {
                 inline: true,
               }
             ]
-          }),
+          })
         }
       )
     } else if (interaction.commandName == "check") {
@@ -110,7 +110,7 @@ export async function registerCommands(client: Client) {
                   name: "パラメータ",
                   value: isDomain.items.join(", "),
                   inline: false
-                },
+                }
               ]
             })
           }
