@@ -370,6 +370,24 @@
       "igshid"
     ]
   },
+  "threads.com": {
+    "type": "black",
+    "items": [
+      "xmt",
+      "slof",
+      "igsh",
+      "igshid"
+    ]
+  },
+  "www.threads.com": {
+    "type": "black",
+    "items": [
+      "xmt",
+      "slof",
+      "igsh",
+      "igshid"
+    ]
+  },
   "amazon.com": {
     "type": "black",
     "items": [
