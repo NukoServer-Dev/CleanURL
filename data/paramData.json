@@ -316,5 +316,196 @@
       "frlogid",
       "x"
     ]
+  },
+  "open.spotify.com": {
+    "type": "black",
+    "items": [
+      "si",
+      "context",
+      "nd",
+      "dl_branch"
+    ]
+  },
+  "www.twitch.tv": {
+    "type": "black",
+    "items": [
+      "tt_medium",
+      "tt_content"
+    ]
+  },
+  "twitch.tv": {
+    "type": "black",
+    "items": [
+      "tt_medium",
+      "tt_content"
+    ]
+  },
+  "www.nicovideo.jp": {
+    "type": "black",
+    "items": [
+      "ref"
+    ]
+  },
+  "nicovideo.jp": {
+    "type": "black",
+    "items": [
+      "ref"
+    ]
+  },
+  "threads.net": {
+    "type": "black",
+    "items": [
+      "xmt",
+      "slof",
+      "igsh",
+      "igshid"
+    ]
+  },
+  "www.threads.net": {
+    "type": "black",
+    "items": [
+      "xmt",
+      "slof",
+      "igsh",
+      "igshid"
+    ]
+  },
+  "amazon.com": {
+    "type": "black",
+    "items": [
+      "sr",
+      "sprefix",
+      "crid",
+      "content-id",
+      "th",
+      "psc",
+      "spc",
+      "ie",
+      "sp_csd",
+      "ref_",
+      "ref",
+      "pd_rd_w",
+      "pd_rd_r",
+      "pd_rd_wg",
+      "pf_rd_r",
+      "pf_rd_p"
+    ]
+  },
+  "www.amazon.com": {
+    "type": "black",
+    "items": [
+      "sr",
+      "sprefix",
+      "crid",
+      "content-id",
+      "th",
+      "psc",
+      "spc",
+      "ie",
+      "sp_csd",
+      "ref_",
+      "ref",
+      "pd_rd_w",
+      "pd_rd_r",
+      "pd_rd_wg",
+      "pf_rd_r",
+      "pf_rd_p"
+    ]
+  },
+  "rakuten.co.jp": {
+    "type": "black",
+    "items": [
+      "scid",
+      "s-id",
+      "iasid",
+      "sc2id",
+      "icm_acid",
+      "icm_cid"
+    ]
+  },
+  "item.rakuten.co.jp": {
+    "type": "black",
+    "items": [
+      "scid",
+      "s-id",
+      "iasid",
+      "sc2id",
+      "icm_acid",
+      "icm_cid"
+    ]
+  },
+  "www.rakuten.co.jp": {
+    "type": "black",
+    "items": [
+      "scid",
+      "s-id",
+      "iasid",
+      "sc2id",
+      "icm_acid",
+      "icm_cid"
+    ]
+  },
+  "shopping.yahoo.co.jp": {
+    "type": "black",
+    "items": [
+      "sc_e",
+      "sc_i",
+      "sc_o"
+    ]
+  },
+  "www.pixiv.net": {
+    "type": "black",
+    "items": [
+      "from_sid"
+    ]
+  },
+  "pixiv.net": {
+    "type": "black",
+    "items": [
+      "from_sid"
+    ]
+  },
+  "bsky.app": {
+    "type": "black",
+    "items": [
+      "ref_src"
+    ]
+  },
+  "github.com": {
+    "type": "black",
+    "items": [
+      "ref_cta",
+      "ref_loc",
+      "ref_page",
+      "source"
+    ]
+  },
+  "store.steampowered.com": {
+    "type": "black",
+    "items": [
+      "snr"
+    ]
+  },
+  "bilibili.com": {
+    "type": "black",
+    "items": [
+      "spm_id_from",
+      "from_source",
+      "from"
+    ]
+  },
+  "www.bilibili.com": {
+    "type": "black",
+    "items": [
+      "spm_id_from",
+      "from_source",
+      "from"
+    ]
+  },
+  "jp.mercari.com": {
+    "type": "black",
+    "items": [
+      "_egl-prm"
+    ]
   }
 }
