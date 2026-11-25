@@ -304,6 +304,15 @@
       "t"
     ]
   },
+  "search.naver.com": {
+    "type": "black",
+    "items": [
+      "sm",
+      "ssc",
+      "oquery",
+      "ackey"
+    ]
+  },
   "search.yahoo.co.jp": {
     "type": "black",
     "items": [
