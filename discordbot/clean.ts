@@ -38,19 +38,6 @@ async function sendCleanedMessage(
     webhook = await message.channel.createWebhook({
       name: "CleanURL",
     });
-
-    await message.channel.send({
-      embeds: [
-        new EmbedBuilder({
-          title: "必要なWebhookが作成されました。",
-          description: "このWebhookはチャンネルごとに作成されます。",
-          color: Colors.Green,
-          footer: {
-            text: "ぬこぬこサーバー",
-          },
-        }),
-      ],
-    });
   }
 
   await webhook.send({
