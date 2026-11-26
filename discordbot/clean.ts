@@ -79,17 +79,6 @@ export async function registerCleanMessage(client: Client) {
                     name: "CleanURL"
                 })
 
-                await message.channel.send({
-                    embeds: [new EmbedBuilder({
-                        title: "必要なWebhookが作成されました。",
-                        description: "このWebhookはチャンネルごとに作成されます。",
-                        color: Colors.Green,
-                        footer: {
-                            text: "ぬこぬこサーバー"
-                        }
-                    })]
-                })
-
                 await webhook.send({
                     content: messageContent,
                     username: message.author.displayName,
